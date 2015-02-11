@@ -123,6 +123,7 @@ public class Translator {
 
 			
 			//Comments about bnz///////Another Change to commit from project > team > commit
+			//Committing again using project
 //		case "bnz":
 //			r = scanInt();
 //			return new BnzInstruction(label, r);	
