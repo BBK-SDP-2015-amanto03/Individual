@@ -1,0 +1,11 @@
+fo lin 20 6
+f1 lin 21 1
+f2 lin 22 1
+f3 mul 21 21 20
+f4 mul 23 20 21
+f5 sub 24 20 23 
+f6 sub 25 24 23
+f7 add 26 20 25
+f8 add 27 20 26
+f9 div 28 27 25
+f10 div 29 27 26
