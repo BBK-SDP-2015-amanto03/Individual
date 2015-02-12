@@ -1,4 +1,1 @@
-fo lin 20 10
-f1 lin 10 3 
-f2 add 30 20 21
-f3 bnz 30 f2
+f0 bnz 30 f2
