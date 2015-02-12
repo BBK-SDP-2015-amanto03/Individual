@@ -130,7 +130,13 @@ public class Translator {
 //			r = scanInt();
 //			return new BnzInstruction(label, r);	
 //			
-									
+
+		case "bnz":
+			r = scanInt();
+			s1 = scanInt();
+			return new BnzInstruction(label, r, s1);		
+			
+			
 		case "out":
 			r = scanInt();
 			return new OutInstruction(label, r);		
