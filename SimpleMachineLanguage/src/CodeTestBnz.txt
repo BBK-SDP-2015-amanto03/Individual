@@ -1,1 +1,2 @@
-f0 bnz 30 f2
+f0 lin 30 10
+f1 out 30

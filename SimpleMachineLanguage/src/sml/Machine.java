@@ -70,9 +70,13 @@ public class Machine {
 		System.out.println("Values of registers at program termination:");
 		System.out.println(m.getRegisters() + ".");
 		
-		System.out.println("Register content based on 'Out' instruction is");
+		
+		System.out.println("Register content based on 'Out' instruction is " + m.getRegisters().getRegister(Global.resultOut));
 
-		System.out.println(m.getRegisters().getRegister(Global.resultOut) + ".");	
+		
+		
+		
+		//System.out.println(m.getRegisters().getRegister(Global.resultOut) + ".");	
 	}
 
 	// Print the program

@@ -132,9 +132,14 @@ public class Translator {
 //			
 
 		case "bnz":
-			r = scanInt();
-			s1 = scanInt();
-			return new BnzInstruction(label, r, s1);		
+//			r = scanInt();
+////			s1 = scanInt();
+//			s1 = scan();			
+//			return new BnzInstruction(label, r, s1);		
+			System.out.println("BNZ Found");	
+			
+			
+			
 			
 			
 		case "out":
