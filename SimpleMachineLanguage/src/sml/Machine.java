@@ -4,9 +4,14 @@ import java.util.ArrayList;
 
 import lombok.Data;
 
-/*
- * The machine language interpreter
- */
+
+
+//////////////////////////////////////
+//Class: The machine language interpreter
+//Coursework1
+//Author: Ahsan Manto
+/////////////////////////////////////
+
 @Data 
 public class Machine {
 	

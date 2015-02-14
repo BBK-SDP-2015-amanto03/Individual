@@ -2,6 +2,13 @@ package sml;
 
 import java.util.ArrayList;
 
+
+//////////////////////////////////////
+//Class: Labels
+//Coursework1
+//Author: Ahsan Manto
+/////////////////////////////////////
+
 //An instance contains a list of Strings, called "labels",
 //in the order in which they were added to the list. 
 

@@ -1,13 +1,11 @@
 
-
-
 package sml;
 
-/**
- * This class is the superclass of the classes for machine instructions
- * 
- * @author someone
- */
+//////////////////////////////////////
+//Class: This class is the superclass of the classes for machine instructions
+//Coursework1
+//Author: Ahsan Manto
+/////////////////////////////////////
 
 	public abstract class Instruction {
 		

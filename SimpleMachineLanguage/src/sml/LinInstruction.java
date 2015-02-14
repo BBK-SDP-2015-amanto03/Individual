@@ -1,10 +1,10 @@
 package sml;
 
-/**
- * This class ....
- * 
- * @author someone
- */
+//////////////////////////////////////
+//Class: LinInstruction
+//Coursework1
+//Author: Ahsan Manto
+/////////////////////////////////////
 
 public class LinInstruction extends Instruction {
 	private int register;

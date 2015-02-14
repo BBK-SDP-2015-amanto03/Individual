@@ -1,10 +1,10 @@
 package sml;
 
-/**
- * This class ....
- * 
- * @author someone
- */
+//////////////////////////////////////
+//Class: MulInstruction
+//Coursework1
+//Author: Ahsan Manto
+/////////////////////////////////////
 
 public class MulInstruction extends Instruction {
 

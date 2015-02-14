@@ -2,13 +2,11 @@ package sml;
 
 import lombok.Data;
 
-/**
- * This class ....
- * 
- * An instance contains 32 registers and methods to access and change them
- * 
- * @author someone
- */
+////////////////////////////////////////////////////////////////////////////////////////////
+//Class: Registers - An instance contains 32 registers and methods to access and change them 
+//Coursework1
+//Author: Ahsan Manto
+////////////////////////////////////////////////////////////////////////////////////////////
 
 @Data
 public class Registers {
