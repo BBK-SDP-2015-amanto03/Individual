@@ -1,0 +1,50 @@
+2015-02-14 12:33:21,251 ERROR [Worker-2] - System.err - [org.eclipse.debug.core] error can't determine modifiers of missing type org.eclipse.pde.internal.ui.wizards.imports.PluginImportHelper
+when weaving type org.eclipse.debug.core.model.IDebugModelProvider
+when weaving classes 
+when weaving 
+ [Xlint:cantFindType]
+2015-02-14 12:46:48,822 ERROR [ModalContext] - System.err - [org.eclipse.jdt.launching] error can't determine modifiers of missing type org.eclipse.pde.internal.ui.wizards.imports.PluginImportHelper
+when weaving type org.eclipse.jdt.internal.launching.JREContainerInitializer
+when weaving classes 
+when weaving 
+ [Xlint:cantFindType]
+2015-02-14 12:51:55,466 ERROR [main] - System.err - [org.eclipse.jdt.debug.ui] error can't determine modifiers of missing type org.eclipse.pde.internal.ui.wizards.imports.PluginImportHelper
+when weaving type org.eclipse.jdt.internal.debug.ui.actions.RetargettableActionAdapterFactory
+when weaving classes 
+when weaving 
+ [Xlint:cantFindType]
+2015-02-14 12:55:37,752 ERROR [main] - System.err - [org.eclipse.jdt.junit] error can't determine modifiers of missing type org.eclipse.pde.internal.ui.wizards.imports.PluginImportHelper
+when weaving type org.eclipse.jdt.internal.junit.ui.JUnitQuickFixProcessor
+when weaving classes 
+when weaving 
+ [Xlint:cantFindType]
+2015-02-14 14:45:59,260 ERROR [main] - System.err - [org.eclipse.jdt.debug.ui] error can't determine modifiers of missing type org.eclipse.pde.internal.ui.wizards.imports.PluginImportHelper
+when weaving type org.eclipse.jdt.internal.debug.ui.actions.RetargettableActionAdapterFactory
+when weaving classes 
+when weaving 
+ [Xlint:cantFindType]
+2015-02-14 15:39:06,164 ERROR [main] - System.err - [org.eclipse.jdt.ui] error can't determine modifiers of missing type org.eclipse.pde.internal.ui.wizards.imports.PluginImportHelper
+when weaving type org.eclipse.jdt.internal.corext.util.TypeNameMatchCollector
+when weaving classes 
+when weaving 
+ [Xlint:cantFindType]
+2015-02-14 15:39:07,055 ERROR [Worker-0] - System.err - [org.eclipse.jdt.launching] error can't determine modifiers of missing type org.eclipse.pde.internal.ui.wizards.imports.PluginImportHelper
+when weaving type org.eclipse.jdt.internal.launching.JREContainerInitializer
+when weaving classes 
+when weaving 
+ [Xlint:cantFindType]
+2015-02-14 15:40:12,243 ERROR [org.eclipse.jface.text.reconciler.MonoReconciler] - System.err - [org.eclipse.jdt.ui] error can't determine modifiers of missing type org.eclipse.pde.internal.ui.wizards.imports.PluginImportHelper
+when weaving type org.eclipse.jdt.internal.ui.text.spelling.DefaultSpellingEngine
+when weaving classes 
+when weaving 
+ [Xlint:cantFindType]
+2015-02-14 15:40:13,117 ERROR [Worker-1] - System.err - [org.eclipse.jdt.launching] error can't determine modifiers of missing type org.eclipse.pde.internal.ui.wizards.imports.PluginImportHelper
+when weaving type org.eclipse.jdt.internal.launching.JREContainerInitializer
+when weaving classes 
+when weaving 
+ [Xlint:cantFindType]
+2015-02-14 15:46:42,609 ERROR [main] - System.err - [org.eclipse.jdt.debug.ui] error can't determine modifiers of missing type org.eclipse.pde.internal.ui.wizards.imports.PluginImportHelper
+when weaving type org.eclipse.jdt.internal.debug.ui.actions.RetargettableActionAdapterFactory
+when weaving classes 
+when weaving 
+ [Xlint:cantFindType]
