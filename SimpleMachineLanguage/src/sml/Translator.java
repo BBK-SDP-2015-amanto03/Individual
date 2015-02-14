@@ -13,6 +13,20 @@ import java.util.NoSuchElementException;
 //import java.utilzanner;
 import java.util.Scanner;//-------------------------------->>>>>> Corrected
 
+
+//Added the following
+import java.lang.reflect.Member;
+import java.lang.reflect.Method;
+import java.lang.reflect.Field;
+import java.lang.reflect.Constructor;
+//Added the following
+import java.lang.reflect.*;
+
+
+
+
+
+
 /*
  * The translator of a <b>S</b><b>M</b>al<b>L</b> program.
  */
@@ -25,6 +39,7 @@ public class Translator {
 	private Labels labels; // The labels of the program being translated
 	private ArrayList<Instruction> program; // The program to be created
 	private String fileName; // source file of SML code
+	//private String "sml.Instruction.LinInstruction";
 
 	private static final String SRC = "src";
 
@@ -98,75 +113,149 @@ public class Translator {
 		String ins = scan();
 
 		
+		
+///////////// ********* COMMENT/UNCOMMENT TO ACTIVATE/DEACTIVATE SWITCH CASES/REFLECTION CODE///////
+
+
+		
 /////////////////////////////////////////////////////////////////////////////////////////////		
 /////////////////////////////////////////////////////////////////////////////////////////////
 ////////////////// SWITCH CASES BEGIN HERE  **************** ONL BNZ IS NOT FUNCTIONAL //////		
 /////////////////////////////////////////////////////////////////////////////////////////////		
 /////////////////////////////////////////////////////////////////////////////////////////////		
 
-		
-		
-		switch (ins) {
-		//--------------------------------------IF ins is 'add' then do the following case
-		case "add":
-			r = scanInt();
-			s1 = scanInt();
-			s2 = scanInt();
-			return new AddInstruction(label, r, s1, s2);
-		
-		case "lin":
-			r = scanInt();
-			s1 = scanInt();
-			return new LinInstruction(label, r, s1);
-			
-		case "sub":
-			r = scanInt();
-			s1 = scanInt();
-			s2 = scanInt();
-			return new SubInstruction(label, r, s1, s2);
-			
-		case "mul":
-			r = scanInt();
-			s1 = scanInt();
-			s2 = scanInt();
-			return new MulInstruction(label, r, s1, s2);	
-			
-		case "div":
-			r = scanInt();
-			s1 = scanInt();
-			s2 = scanInt();
-			return new DivInstruction(label, r, s1, s2);	
 
-////////////////////////////////////////////////////////////////////////////////////////////////
-//////////**************** BNZ Sub Class is not functional *********************//////////////// 
-////////////////////////////////////////////////////////////////////////////////////////////////			
-////	case "bnz":
-////			r = scanInt();
-////			s1 = scanInt();
-////			s1 = scanIn(); 	
-////			return new BnzInstruction(label, r, s1);
-////////////////////////////////////////////////////////////////////////////////////////////////		
-			
-			
-		case "out":
-			r = scanInt();
-			return new OutInstruction(label, r);		
-			
-		}
+		
+		
+//		
+//		
+//		switch (ins) 
+//		{
+//		//--------------------------------------IF ins is 'add' then do the following case
+//		case "add":
+//			r = scanInt();
+//			s1 = scanInt();
+//			s2 = scanInt();
+//			return new AddInstruction(label, r, s1, s2);
+//		
+//		case "lin":
+//			r = scanInt();
+//			s1 = scanInt();
+//			return new LinInstruction(label, r, s1);
+//			
+//		case "sub":
+//			r = scanInt();
+//			s1 = scanInt();
+//			s2 = scanInt();
+//			return new SubInstruction(label, r, s1, s2);
+//			
+//		case "mul":
+//			r = scanInt();
+//			s1 = scanInt();
+//			s2 = scanInt();
+//			return new MulInstruction(label, r, s1, s2);	
+//			
+//		case "div":
+//			r = scanInt();
+//			s1 = scanInt();
+//			s2 = scanInt();
+//			return new DivInstruction(label, r, s1, s2);	
+//
+//////////////////////////////////////////////////////////////////////////////////////////////////
+////////////**************** BNZ Sub Class is not functional *********************//////////////// 
+//////////////////////////////////////////////////////////////////////////////////////////////////			
+//////	case "bnz":
+//////			r = scanInt();
+//////			s1 = scanInt();
+//////			s1 = scanIn(); 	
+//////			return new BnzInstruction(label, r, s1);
+//////////////////////////////////////////////////////////////////////////////////////////////////		
+//			
+//			
+//		case "out":
+//			r = scanInt();
+//			return new OutInstruction(label, r);		
+//			
+//		}
+//
 
+
+		
+
+		
+		
+		
 		
 /////////////////////////////////////////////////////////////////////////////////////////////		
 /////////////////////////////////////////////////////////////////////////////////////////////
-//////////////////  REFLECTION BEGINS HERE  /////////////////////////////////////////////////	
+//////////////////  REFLECTION BEGINS HERE -  /////////////////////////////////////////////////	
 /////////////////////////////////////////////////////////////////////////////////////////////		
 /////////////////////////////////////////////////////////////////////////////////////////////			
-				
+
+/*	
+		
+		switch (ins)
+					{
 
 		
 		
 		
+			case "lin":
+			
+			r  = scanInt();
+			s1 = scanInt();
+//			
+/////////////COMMENT OUT SUB CLASS CALL; CREATE REFLECTION CODE TO REPLACE			
+////			return new LinInstruction(label, r, s1);
+//
+//						
+////			Class c = "foo".getClass();
+//			
+////			Class<?>[] d = Character.class.getClasses();
+//			
+//
+//			
+
+
+			//String1 parameter
+			Class[] paramString1 = new Class[1];	
+			paramString1 [0] = String.class;
+		 
+			//int1 parameter
+			Class[] paramInt1 = new Class[1];	
+			paramInt1 [0] = Integer.TYPE;		
+			
+			//int2 parameter
+			Class[] paramInt2 = new Class[1];	
+			paramInt2 [0] = Integer.TYPE;	
+
+
+	
+			
+			try{
+
+		Class cls = Class.forName("sml.LinInstruction");
+		Object obj = cls.newInstance();
+		
+		method = cls.getDeclaredMethod(paramString1, paramInt1, paramInt2);
+		method.invoke(obj, 123);
 		
 		
+			}
+			catch(Exception ex){
+				ex.printStackTrace();
+			}
+				
+//				return new LinInstruction(label, r, s1);
+				
+				
+				
+//			
+//			
+		}	
+		
+		
+*/	
 		
 		
 		

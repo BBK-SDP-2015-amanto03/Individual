@@ -1,2 +1,2 @@
-commit_dialog_history_messages=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<messages>\r\n<message>Updates</message>\r\n</messages>
+commit_dialog_history_messages=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<messages>\r\n<message>log file.</message>\r\n<message>meta files</message>\r\n<message>metadata files.</message>\r\n<message>Additional files</message>\r\n<message>More files.</message>\r\n<message>Additional changes</message>\r\n<message>Additional Staged</message>\r\n<message>Additional CHanges</message>\r\n<message>Committing changes</message>\r\n<message>Removing files not needed.</message>\r\n</messages>
 eclipse.preferences.version=1

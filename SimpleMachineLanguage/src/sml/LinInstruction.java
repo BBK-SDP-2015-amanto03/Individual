@@ -1,3 +1,7 @@
+
+
+
+
 package sml;
 
 //////////////////////////////////////
@@ -5,6 +9,13 @@ package sml;
 //Coursework1
 //Author: Ahsan Manto
 /////////////////////////////////////
+
+
+
+
+
+
+
 
 public class LinInstruction extends Instruction {
 	private int register;
